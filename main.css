@@ -29,10 +29,7 @@ a, span, p, li{
     font-family: "Inter";
 }
 
- .container{
 
-    margin: 50px;
-}
 
 *{
   margin: 0;
@@ -45,11 +42,14 @@ a, span, p, li{
 
 .head{
     width: 100%;
-
     display: flex;
     background-color: #ebebebd7;
     border-radius: 30px;
     justify-content: space-between;
+    position:fixed;
+    top: 0;
+    height: 50px;
+    z-index: 5000;
 }
 
 .logo{
