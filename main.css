@@ -82,6 +82,7 @@ a, span, p, li{
 /* slider */
 
 .container{
+  margin-top: 100px;
   display: flex;
   justify-content: center;
 }
