@@ -10,25 +10,40 @@
   </head>
   <body>
 
-    <header>
-      <div class="head">
+<header>
+    <div class="head">
         <div class="logo">
-          <img
-            src="../image/logo.png"
-            alt="logotip"
-            width="100px"
-            height="45px" />
-          <span class="name">Best Games</span>
+            <img
+                src="../image/logo.png"
+                alt="logotip"
+                width="100px"
+                height="45px" />
+            <span class="name">Best Games</span>
         </div>
+
+        <!-- Десктопное меню -->
         <ul class="menu">
-          <li><a href="catalog">Каталог</a></li>
-          <li><a href="search">Поиск</a></li>
-          <li><a href="lk">Личный кабинет</a></li>
-          <li><a href="entry">Войти</a></li>
+            <li><a href="catalog">Каталог</a></li>
+            <li><a href="search">Поиск</a></li>
+            <li><a href="lk">Личный кабинет</a></li>
+            <li><a href="entry">Войти</a></li>
         </ul>
-        </div>
-      </div>
-    </header>
+
+        <!-- Бургер-кнопка и мобильное меню -->
+        <input type="checkbox" id="burger-toggle">
+        <label for="burger-toggle" class="burger">
+            <span></span>
+        </label>
+
+        <!-- Мобильное меню -->
+        <ul class="mobile-menu">
+            <li><a href="catalog">Каталог</a></li>
+            <li><a href="search">Поиск</a></li>
+            <li><a href="lk">Личный кабинет</a></li>
+            <li><a href="entry">Войти</a></li>
+        </ul>
+    </div>
+</header>
 
       <section>
         <div class="container-double">
